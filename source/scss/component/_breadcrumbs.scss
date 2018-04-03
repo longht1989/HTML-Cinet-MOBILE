@@ -56,4 +56,25 @@
             }
         }
     }
+    .subcate {
+        margin-top: 4px;
+    }
+    .subcate--full {
+        margin-top: 8px;
+        @include clearfix;
+        label {
+            display: inline-block;
+            width: 20%;
+            margin: 5px 0 0;
+            float: left;
+        }
+        .form-control {
+            width: 80%;
+            float: right;
+            height: 30px;
+            option {
+                text-align: right;
+            }
+        }
+    }
 }
